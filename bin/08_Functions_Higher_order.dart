@@ -1,5 +1,4 @@
 void main(List<String> arguments) {
-
   final twicePlusFive = twiceAgainAgain((x) => x + 5);
   final result = twicePlusFive(3);
 

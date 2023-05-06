@@ -1,4 +1,4 @@
-enum AccountType {free, premium, vip}
+enum AccountType { free, premium, vip }
 
 void main(List<String> arguments) {
   final userAccountType = AccountType.vip;
@@ -17,6 +17,7 @@ void main(List<String> arguments) {
     case AccountType.vip:
       print('50 USD');
       break;
-    default: break;
+    default:
+      break;
   }
 }

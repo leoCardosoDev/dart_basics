@@ -10,7 +10,7 @@ void main(List<String> arguments) {
     print(namesFiltered[i]);
   }
 
-  for(final name in namesFiltered) {
+  for (final name in namesFiltered) {
     print('Other for $name');
   }
 

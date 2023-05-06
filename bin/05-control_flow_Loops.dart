@@ -7,5 +7,5 @@ void main(List<String> arguments) {
   // while (condition) {}
   do {
     print("Executa Isso!");
-  } while(false);
+  } while (false);
 }

@@ -4,7 +4,7 @@ void main(List<String> arguments) {
     print("It's ten!");
   } else if (myInteger == 9) {
     print("It's nine");
-  } else if(myInteger > 20) {
+  } else if (myInteger > 20) {
     print('Greater than twenty');
   } else {
     print(myInteger);
@@ -15,15 +15,15 @@ void main(List<String> arguments) {
   switch (value) {
     case 10:
       print("It's ten!");
-    break;
+      break;
     case 9:
       print("It's nine");
-    break;
+      break;
     case int n when n > 20:
       print('Greater than twenty');
-    break;
+      break;
     default:
       print(value);
-    break;
+      break;
   }
 }
