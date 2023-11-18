@@ -1,7 +1,7 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 void main (List<String> arguments) {
   final user1 = Usuario(firstName: 'Leonardo', lastName: 'Silva');
-  final user2 = Usuario(firstName: 'Leonardo', lastName: 'Silva');
+  final user2 = Usuario(firstName: 'Leo', lastName: 'Silva');
 
   print(user1 == user2);
 }

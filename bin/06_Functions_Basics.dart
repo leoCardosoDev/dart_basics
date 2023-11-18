@@ -3,8 +3,8 @@ void main(List<String> arguments) {
     return 'Olá';
   }
 
-  returnsStringNested();
-  returnsString();
+  print(returnsStringNested());
+  print(returnsString());
 }
 
 String returnsString() {
